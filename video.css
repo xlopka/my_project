@@ -1,0 +1,35 @@
+body{
+    background-color: #2D384A;
+    color: #D2D2D2;
+}
+.buttons{
+    background: url(buttons/buttons.svg);
+    position: absolute;
+    width: 960px;
+    height: 80px;
+    left: 25%;
+    top: 0px;
+}
+.buttons img{
+    margin: 13px 7.4px 0 0;
+    box-sizing: border-box;
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+}
+.buttons img:hover {
+    box-shadow: 0 0 5px #D2D2D2;
+    border: 1px solid #D2D2D2;
+}
+.buttons #button1{
+    margin-left: 7px;
+}
+.content{
+    position: absolute;
+    width: 920px;
+    height: 1173px;
+    left: 25%;
+    top: 80px;
+    background: rgba(10, 31, 50, 0.61);
+    padding: 20px;
+    font-family: Inter;
+}
